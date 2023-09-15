@@ -88,6 +88,24 @@ a {
 .loginSpan{font-size: 12px;color:#959595; cursor: pointer;}
 .loginSpan:hover{color:#2a2a2a}
 
+.cart{margin-top: 50px;}
+.minus{cursor: pointer;display: inline-block; width: 20px; height: 20px; text-align: center; border: 1px solid #ddd}
+.number{padding: 5px; text-align:center;}
+.plus{cursor: pointer;display: inline-block; width: 20px; height: 20px; text-align: center; border: 1px solid #ddd; margin-right: 5px;}
+.cartBtn{cursor: pointer;background: none; border: 1px solid #117fa7; color: #117fa7; padding: 5px 0; width: 150px; margin-right: 5px; }
+.buy{cursor: pointer;background:#117fa7; border: 1px solid #117fa7; color: #fff; padding: 5px 0; width: 150px;}
+
+
+.cartList tr td{border-bottom: 1px solid #ddd; padding: 20px 0; text-align: center;}
+.cartList tr td:nth-child(2){ text-align: left;}
+
+.cartList tr td span img{width: 50px; height: 50px; vertical-align: middle;}
+.cartList tr td strong{margin-left: 10px;}
+
+
+
+
+
 .signWrap ul {
   list-style: none;
 }

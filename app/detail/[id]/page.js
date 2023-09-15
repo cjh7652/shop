@@ -1,6 +1,7 @@
 import {connectDB} from "@/util/database"
 import {ObjectId} from "mongodb";
 import styles from './page.module.css'
+import Cart from "@/components/Cart";
 
 export default async function Detail(props){
     const client= await connectDB
@@ -22,7 +23,9 @@ export default async function Detail(props){
                     <p  className={styles.dilivery}><span>배송비</span>만원이상 무료배송(사이즈교환1회무료)</p>
                     <p  className={styles.color}><span className={styles.span}>색상</span><input type="text" /></p>
                     <p  className={styles.size}><span className={styles.span}>사이즈</span><input type="text" /></p>
+                    <Cart result={result} />
                 </div>
+
             </div>
        </div>
     )

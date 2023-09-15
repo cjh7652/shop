@@ -1,0 +1,6 @@
+.cart{padding: 100px 50px;}
+.h3{text-align: center; padding-bottom: 5px; margin-bottom: 20px; border-bottom: 1px solid #ddd;}
+.table{width: 100%;}
+.table th{border-bottom: 1px solid #ddd; padding: 5px 10px 20px 10px;}
+.table th:nth-child(1){text-align: left;}
+.buy{width: 150px; padding: 5px 20px; background: #1b54f2; color: #fff; text-align: center; margin: 10px auto;}
